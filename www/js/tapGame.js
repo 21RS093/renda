@@ -39,6 +39,7 @@ function saveScore (name, score) {
     // **********【問題１】名前とスコアを保存しよう！**********
     // 保存先クラスを作成
 var GameScore = ncmb.DataStore("GameScore");
+
 // クラスインスタンスを生成
 var gameScore = new GameScore();
 // 値を設定
